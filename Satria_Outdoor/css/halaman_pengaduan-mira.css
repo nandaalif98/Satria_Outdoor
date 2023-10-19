@@ -31,7 +31,7 @@ nav ul
 
 nav ul li a
 {
-    margin: 80px;
+    margin: 110px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     font-size: 20px;
@@ -63,6 +63,7 @@ nav ul li a
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .box-judul p
@@ -100,6 +101,7 @@ nav ul li a
     justify-content: space-around;
     align-items: center;
     background-color: #FF7A00;
+    cursor: pointer;
 }
 
 .fitur-1 p, .fitur-2 p, .fitur-3 p

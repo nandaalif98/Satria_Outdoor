@@ -31,7 +31,7 @@ nav ul
 
 nav ul li a
 {
-    margin: 80px;
+    margin: 110px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #000000;
     font-size: 20px;
@@ -127,6 +127,7 @@ nav ul li a
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .edit p
@@ -180,6 +181,7 @@ nav ul li a
     display: flex;
     flex-direction: column;
     text-align: center;
+    cursor: pointer;
 }
 
 .box-desc

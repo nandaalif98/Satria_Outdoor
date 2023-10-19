@@ -31,7 +31,7 @@ nav ul
 
 nav ul li a
 {
-    margin: 80px;
+    margin: 110px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(36, 34, 34);
     font-size: 20px;
@@ -77,8 +77,8 @@ nav ul li a:hover {
     gap: 5px; /
 }
 .daftar {
-    margin-left: 0% 10% 10%;
-    width: calc(10% - 12px);
+    margin-left: 100px;
+    width: 200px;
     padding: 1px;
     box-sizing: border-box;
     background-color: #ff7400;

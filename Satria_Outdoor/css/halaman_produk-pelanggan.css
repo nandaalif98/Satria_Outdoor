@@ -18,10 +18,10 @@ a
 nav
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 60px;
-    background-color: #FF7A00;
+    background-color: hsl(29, 100%, 50%);
 }
 
 nav ul
@@ -31,18 +31,38 @@ nav ul
 
 nav ul li a
 {
-    margin: 110px;
+    margin: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: rgb(36, 34, 34);
     font-size: 20px;
     font-weight: bold;
 }
 
-#navbar
-{
-    width: 100%;
-    height: 15vh;
-    position: relative;
+/* search */
+
+.search-bar input {
+    position: ABSOLUTE;
+    left: 80px;
+    top: 80px;
+    width: 1146px;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.ulasan {
+    display: inline-block;
+    border:0px solid #000;
+    padding: 1px; 
+    width: 86%;
+    margin-left: 81px;
+    margin-top: 85px;
+    text-align: center;
+    background-color: hsl(29, 100%, 50%);;
+    cursor: pointer;
 }
 
 .box
@@ -72,27 +92,18 @@ nav ul li a
     cursor: pointer;
 }
 
-.box-item-1-top, .box-item-2-top, .box-item-3-top, .box-item-4-top, .box-item-5-top
+.box-item-1:active, .box-item-2:active, .box-item-3:active, .box-item-4:active, .box-item-5:active, .box-item-6:active
+{
+    transform: scale(1.2);
+}
+
+.box-item-1-top, .box-item-2-top, .box-item-3-top, .box-item-4-top, .box-item-5-top, .box-item-6-top
 {
     background-color: white;
     padding: 10px;
     text-align: center;
     margin-top: 6px;
     margin-bottom: 25px;
-}
-
-.box-item-6-top
-{
-    width: 200px;
-    height: 205px;
-}
-
-.box-item-6-top i
-{
-    display: flex;
-    font-size: 100px;
-    justify-content: center;
-    padding-top: 50px;
 }
 
 .box-item-1-bottom, .box-item-2-bottom, .box-item-3-bottom, .box-item-4-bottom, .box-item-5-bottom, .box-item-6-bottom
@@ -103,20 +114,13 @@ nav ul li a
     padding-top: 2px;
 }
 
-.box-item-1-bottom p:nth-child(1), .box-item-2-bottom p:nth-child(1), .box-item-3-bottom p:nth-child(1), .box-item-4-bottom p:nth-child(1), .box-item-5-bottom p:nth-child(1)
+.box-item-1-bottom p:nth-child(1), .box-item-2-bottom p:nth-child(1), .box-item-3-bottom p:nth-child(1), .box-item-4-bottom p:nth-child(1), .box-item-5-bottom p:nth-child(1), .box-item-6-bottom p:nth-child(1)
 {
     font-size: 15px;
     text-align: center;
 }
 
-.box-item-6-bottom p:nth-child(1)
-{
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.box-item-1-bottom p:nth-child(2), .box-item-2-bottom p:nth-child(2), .box-item-3-bottom p:nth-child(2), .box-item-4-bottom p:nth-child(2), .box-item-5-bottom p:nth-child(2)
+.box-item-1-bottom p:nth-child(2), .box-item-2-bottom p:nth-child(2), .box-item-3-bottom p:nth-child(2), .box-item-4-bottom p:nth-child(2), .box-item-5-bottom p:nth-child(2), .box-item-6-bottom p:nth-child(2)
 {
     text-align: center;
     font-weight: bold;

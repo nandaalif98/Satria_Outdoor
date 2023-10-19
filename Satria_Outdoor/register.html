@@ -37,7 +37,6 @@
                 
                 <div class="page-bawah">
                 <div class="ingat-akun-saya">
-                    <label> <input type="checkbox"> Ingat Akun Saya </label>
                     <br>
                     <br>
 
@@ -45,12 +44,22 @@
                 </div>
 
                 <div class="button-mitra">
-                <button type="submit" href="#">MITRA</button>
+                    <button type="button" class="btn" onclick="pindahHalaman('MITRA')">MITRA</button>
                 </div>
 
                 <div class="button-pelanggan">
-                <button type="submit" href="#">PELANGGAN</button>
+                    <button type="button" class="btn" onclick="pindahHalaman('PELANGGAN')">PELANGGAN</button>
                 </div>
+
+                <script>
+                    function pindahHalaman(tujuan) {
+                        if (tujuan === 'MITRA') {
+                            window.location.href = 'login.html';
+                        } else if (tujuan === 'PELANGGAN') {
+                            window.location.href = 'login.html';
+                        }
+                    }
+                </script>
 
                 <div class="login-register">
                     <p>Sudah Memiliki Akun?   <a href="login.html" class="register-link">Login Sekarang!</a></p>

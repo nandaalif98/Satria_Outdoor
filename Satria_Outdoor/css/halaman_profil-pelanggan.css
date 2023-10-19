@@ -127,6 +127,7 @@ nav ul li a
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .edit p
@@ -168,6 +169,7 @@ nav ul li a
     align-items: center;
     background-color: #FF7A00;
     margin-bottom: 50px;
+    cursor: pointer;
 
 }
 

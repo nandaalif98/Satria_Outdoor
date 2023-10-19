@@ -42,7 +42,18 @@
                     <br>
                 </div>
 
-                <button type="submit" class="btn" href="#">LOGIN</button>
+                <button type="button" class="btn" onclick="pindahHalaman('MITRA')">MITRA</button>
+                <button type="button" class="btn" onclick="pindahHalaman('PELANGGAN')">PELANGGAN</button>
+
+                <script>
+                    function pindahHalaman(tujuan) {
+                        if (tujuan === 'MITRA') {
+                            window.location.href = 'halaman_utama-mitra.html';
+                        } else if (tujuan === 'PELANGGAN') {
+                            window.location.href = 'halaman_utama-pelanggan.html';
+                        }
+                    }
+                </script>
 
                 <div class="login-register">
                     <p>Belum Memiliki Akun?   <a href="register.html" class="register-link">Daftar Sekarang!</a></p>
